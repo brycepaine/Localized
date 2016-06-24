@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" android:id="@+id/main" >
+        <item android:id="@+id/nav_inbox" android:icon="@drawable/ic_email_black_24dp"
+            android:title="Inbox" />
+
+        <item android:id="@+id/nav_myslide" android:icon="@drawable/ic_perm_identity_black_24dp"
+            android:title="My Profile" />
+
+
+    </group>
+    <group android:id="@+id/upload" android:checkableBehavior="single" >
+
+        <item android:id="@+id/nav_upload" android:icon="@drawable/ic_file_upload_black_24dp"
+            android:title="Import" />
+
+        <item android:id="@+id/nav_camera" android:icon="@drawable/ic_photo_camera_black_24dp"
+            android:title="Camera" />
+    </group>
+
+
+
+    <group android:id="@+id/logout">
+
+        <item android:id="@+id/nav_logout" android:icon="@drawable/ic_close_black_24dp"
+            android:title="Logout" />
+    </group>
+
+
+</menu>
